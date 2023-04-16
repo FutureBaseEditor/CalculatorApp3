@@ -28,6 +28,10 @@
             {
                 Console.WriteLine(sayi1 % sayi2);
             }
+            else
+            {
+                Console.WriteLine("Hatalı İşlem");
+            }
         }
     }
 }
