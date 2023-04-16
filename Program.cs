@@ -6,7 +6,11 @@
         {
             Console.WriteLine("Hesap Makinesi");
             Console.WriteLine("ilk sayıyı giriniz");
-            double sayi1=double.Parse(Console.ReadLine());  
+            double sayi1=double.Parse(Console.ReadLine());
+            Console.WriteLine("ikinci sayıyı giriniz");
+            double sayi2 = double.Parse(Console.ReadLine());
+            Console.WriteLine("yapmak istediğiniz işlemi giriniz");
+            string islem = Console.ReadLine();
         }
     }
 }
