@@ -24,7 +24,7 @@
             {
                 Console.WriteLine(sayi1 * sayi2);
             }
-            else if (islem == "bolme" || islem == "/")
+            else if (islem == "bol" || islem == "/")
             {
                 Console.WriteLine(sayi1 / sayi2);
             }
