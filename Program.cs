@@ -11,7 +11,7 @@
             double sayi2 = double.Parse(Console.ReadLine());
             Console.WriteLine("Yapmak istediğiniz işlemi giriniz");
             string islem = Console.ReadLine().ToLower();
-            
+
             if (islem == "topla" || islem == "+")
             {
                 Console.WriteLine(sayi1 + sayi2);
@@ -28,6 +28,7 @@
             {
                 Console.WriteLine(sayi1 % sayi2);
             }
+            else Console.WriteLine("Hatalı İşlem");
         }
     }
 }
