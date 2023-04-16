@@ -24,6 +24,10 @@
             {
                 Console.WriteLine(sayi1 * sayi2);
             }
+            else if (islem == "mod" || islem == "%")
+            {
+                Console.WriteLine(sayi1 % sayi2);
+            }
         }
     }
 }
