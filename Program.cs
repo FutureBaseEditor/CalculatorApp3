@@ -5,11 +5,11 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hesap Makinesi");
-            Console.WriteLine("ilk sayıyı giriniz");
+            Console.WriteLine("İlk sayıyı giriniz");
             double sayi1=double.Parse(Console.ReadLine());
-            Console.WriteLine("ikinci sayıyı giriniz");
+            Console.WriteLine("İkinci sayıyı giriniz");
             double sayi2 = double.Parse(Console.ReadLine());
-            Console.WriteLine("yapmak istediğiniz işlemi giriniz");
+            Console.WriteLine("Yapmak istediğiniz işlemi giriniz");
             string islem = Console.ReadLine();
         }
     }
