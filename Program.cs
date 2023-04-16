@@ -10,7 +10,12 @@
             Console.WriteLine("İkinci sayıyı giriniz");
             double sayi2 = double.Parse(Console.ReadLine());
             Console.WriteLine("Yapmak istediğiniz işlemi giriniz");
-            string islem = Console.ReadLine();
+            string islem = Console.ReadLine().ToLower();
+            
+            if (islem == "topla" || islem == "+")
+            {
+                Console.WriteLine(sayi1 + sayi2);
+            }
         }
     }
 }
